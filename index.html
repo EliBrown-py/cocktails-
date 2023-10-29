@@ -1,0 +1,66 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktails</title>
+    <style>
+      .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .box {
+        flex: 0 0 300px;
+        height: 120px;
+        background-color: rgb(148, 86, 206);
+        margin: 5px;
+        font-size: xx-large;
+        color: rgb(227, 224, 218);
+        box-sizing: border-box;
+        padding: 2px;
+        margin: 2px;
+        font-size: medium;
+      }
+      h1 {
+        width: 100%;
+        background-color: rgb(33, 31, 31);
+        color: #FFFF;
+        text-align: center;
+        font-size: xx-large;
+        height: 90px;
+        line-height: 90px;
+      }
+      .cocktail_pic {
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .cocktail {
+        float: right;
+        margin-right: 3px;
+        width: 50%;
+      }
+      h3 {
+        text-align: center; 
+      }
+      
+    </style>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="cocktails_arrays.js"></script>
+    <script src="cocktails.js"></script>
+  </head>
+  <body>
+    <h1>TOP FIVE COCKTAILS IN US</h1>
+    <h3>Mouse over for exact recipe for the drink, click on the picture for calories info</h3>
+
+    <div class="wrapper">
+    </div>
+  </body>
+</html>
